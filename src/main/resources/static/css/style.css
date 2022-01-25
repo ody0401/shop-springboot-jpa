@@ -1,0 +1,155 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+section {
+    padding-bottom: 100px;
+}
+
+footer {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+hr {
+    margin: 0;
+}
+
+#navbarNavAltMarkup {
+    justify-content: right;
+}
+
+/*input::-webkit-outer-spin-button,*/
+/*input::-webkit-inner-spin-button {*/
+/*    -webkit-appearance: none;*/
+/*    margin: 0;*/
+/*}*/
+
+
+.ItemTitle {
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    margin: 10px auto 0;
+    width: 50px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+/* 메뉴 */
+.menu ul {
+    width: 100%;
+}
+
+.menu form {
+    margin: 0;
+}
+
+/* Home */
+.banner {
+    height: 60vh;
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.newBestItem ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.newBestItem li {
+    float: left;
+    margin: 5px;
+}
+
+.newBestItem li img {
+    height: 270px;
+}
+
+.newItem {
+    background-color: #f5f5f5;
+}
+
+/* category-product */
+.productMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-size: 0.8em;
+}
+
+.productMenu span {
+    padding-top: 10px;
+}
+
+.productList ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.productList li {
+    float: left;
+    margin: 10px;
+}
+
+.productList li img {
+    height: 270px;
+}
+
+.card {
+    width: 18rem;
+    height: 22rem;
+}
+
+.card-body {
+    overflow: hidden;
+    max-height: 4em;
+    padding: 0.5rem;
+}
+
+.card-text {
+    max-height: 1.6rem;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.nav-link {
+    color: black;
+}
+
+/* cart */
+.cartTable {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cartTable img {
+    width: 120px;
+    height: 140px;
+}
+
+.cartTable tr {
+    font-weight: bold;
+}
+
+.btnCart {
+    text-align: right;
+}

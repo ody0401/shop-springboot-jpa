@@ -1,0 +1,19 @@
+.loginForm {
+    width: 40%;
+    margin: auto;
+    font-size: 0.9em;
+}
+
+.loginForm input {
+    width: 80%;
+}
+
+.signupForm {
+    width: 70%;
+    margin: auto;
+    font-size: 0.9em;
+}
+
+.btnLoginForm, .btnDiv {
+    text-align: center;
+}
